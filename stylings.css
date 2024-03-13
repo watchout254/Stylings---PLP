@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+body {
+    background-color:mistyrose;
+}
+
+.introduction{
+    background-color: lightsteelblue;
+    padding: 10px ;
+    margin: auto;
+
+}
+
+.skills{
+    background-color: bisque;
+    padding: 10px;
+    border: 5px solid black;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+
+.contacts{
+    background-color: rgb(156, 241, 71);
+    padding: 10px;
+    margin: auto;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .body {
+      padding: 10px;
+    }
+  }
+  
+  /* Media query for screens with a width of 400 pixels or less */
+  @media only screen and (max-width: 400px) {
+    .body {
+      padding: 5px;
+    }
+  }
